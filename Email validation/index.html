@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+        <body>
+  <form class="form">
+    <!-- input container  -->
+    <div class="input-container">
+      <input type="email" name="" placeholder=" " class="input-field" id="email-input" autocomplete="off" required />
+      <!-- input label - which will animate while focus on input  -->
+      <label for="email-input">Email Address</label>
+      <!-- email icon - font-awesome -->
+      <i id="email-icon" class="fa-regular fa-envelope"></i>
+      <span class="toast-msg" id="invalid-toast">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Please enter the correct email format!</p>
+      </span>
+      <!-- email successfuly submit message  -->
+      <span class="toast-msg success" id="success-toast">
+        <i class="fa-solid fa-check"></i>
+        <p>Great! your email successfully submitted.</p>
+      </span>
+    </div>
+    <button class="submit-btn">submit</button>
+  
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
